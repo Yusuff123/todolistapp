@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.name {
+    margin-top: 7%;
+    margin-left: 21%;
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.main {
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.maindatas {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 7%;
+}
+
+.maindatas p {
+    font-size: 18px;
+    font-family:'Roboto', 'sans-serif';
+    margin: 4%;
+    border-radius: 7px;
+    text-align: center;
+    padding: 10px;
+}
+
+.maindatas button {
+    padding: 10px;
+    width: 92%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+}
+
+.form {
+    width: 30%;
+    float: right;
+    height: 300px;
+    margin-top: 35%;
+    border-radius: 10px;
+}
+
+.form input {
+    width: 80%;
+    padding: 10px;
+    margin: 10%;
+}
+
+.form button {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.activities {
+    width: 40%;
+    float: left;
+    height: 500px;
+    margin-top: 20%;
+    max-height: 900px;
+    border-radius: 10px;
+}
+
+.activities input {
+    width: 80%;
+    padding: 10px;
+    margin: 8%;
+}
+
+.activities button {
+    width: 80%;
+    margin: 1%;
+    margin-left: 8%;
+}
+
+#list {
+    overflow-y: scroll;
+    margin-left: 8%;
+    font-size: 20px;
+    font-family: 'Roboto', 'sans-serif';
+    color: black;
+    background-color: white;
+    width: 80%;
+    border-radius: 5px;
+    max-height: 160px;
+    text-align: center;
+    list-style-type: none;
+}
+
+#list li {
+    font-family: 'Roboto', 'sans-serif';
+    cursor: pointer;
+    margin: 5%;
+}
+
+
+
+::-webkit-scrollbar {
+	width: 10px; /*genislik 10px olsun*/
+	background-color: #eaeaea; /*scrollbar arkaplan renk*/
+	border-left: 1px solid #f1f1f1;  /*arkaplan sol tarafa cizgi cek*/
+}
+::-webkit-scrollbar-thumb {
+	background-color: #a0a0a0; /*scrollbar renk*/
+	border-radius:15px /*oval olsun*/
+}
+::-webkit-scrollbar-thumb:hover { /*tiklandiginda*/
+	background-color: #7d7d7d;
+}
+
+.ornekBolge::-webkit-scrollbar {
+	width: 10px; /*genislik 10px olsun*/
+	background-color: #eaeaea; /*scrollbar arkaplan renk*/
+	border-left: 1px solid #f1f1f1;  /*arkaplan sol tarafa cizgi cek*/
+}
+.ornekBolge::-webkit-scrollbar-thumb {
+	background-color: #a0a0a0; /*scrollbar renk*/
+	border-radius:15px /*oval olsun*/
+}
+.ornekBolge::-webkit-scrollbar-thumb:hover { /*tiklandiginda*/
+	background-color: #7d7d7d;
+}
+
